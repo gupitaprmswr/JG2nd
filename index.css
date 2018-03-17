@@ -23,8 +23,26 @@ body{
 
 }
 
+.jack-gif {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.jack-image-right {
+  position: absolute;
+  right: 0px;
+  margin-bottom: 250px;
+
+}
+
 .poem-img {
-  max-height: 450px;
+  max-height: 570px;
+  width: auto;
+
+}
+
+.poem-img-1 {
+  height: 700px;
   width: auto;
 
 }
@@ -32,9 +50,23 @@ body{
 .stanza {
   position: absolute;
   margin-top: 85px;
-  margin-left: 365px;
-  margin-right: 10px;
+  margin-left: 370px;
+  right: 0px;
 
+}
+
+.stanza-3 {
+  position: absolute;
+  margin-top: 85px;
+  margin-left: 700px;
+  right: 0px;
+}
+
+.stanza-2 {
+  position: absolute;
+  margin-top: 85px;
+  margin-left: 10px;
+  margin-right: 365px;
 }
 
 .end-img {
@@ -42,11 +74,34 @@ body{
 }
 
 .poem-1 {
-  margin-bottom: 300px;
-  font-family: 'Roboto Slab', serif;
+  margin-bottom: 170px;
+  /* font-family: 'Roboto Slab', serif; */
+  font-family: 'VT323', monospace;
   font-size: 50px;
+  height: 450px;
+}
+
+.poem-1-bottom {
+  margin-top: 370px;
+  font-family: 'VT323', monospace;
+  font-size: 50px;
+  height: 450px;
 }
 
 .poem-2 {
+  text-align: right;
+  margin-top: 200px;
   margin-bottom: 100px;
+  margin-right: 1px;
+  font-family: 'VT323', monospace;
+  font-size: 25px;
+}
+
+.poem-3 {
+  height: 700px;
+}
+
+.poem-4 {
+  font-family: 'VT323', monospace;
+  font-size: 15px;
 }
