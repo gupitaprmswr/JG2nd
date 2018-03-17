@@ -35,6 +35,12 @@ body{
 
 }
 
+.date {
+  margin-right: 10px;
+  font-family: 'VT323', monospace;
+  font-size: 20px;
+  text-align: left;
+}
 .poem-img {
   max-height: 570px;
   width: auto;
